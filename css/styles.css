@@ -1,9 +1,97 @@
+@font-face {
+  font-family: 'OpenSans-Light';
+  url("../fonts/OpenSans-Light.ttf") format("truetype")
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  url("../fonts/OpenSans-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
+}
+.card-collection {
+  padding: 12px;
+  padding-right: 60%;
+  padding-left: 10%;
+  border-radius: 2px;
+}
+.mdc-card {
+    border-radius: inherit;
+    margin-bottom: 12px;
+    transition: border-radius 100ms cubic-bezier(.4, 0, .2, 1);
+}
+.card-primary {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  padding-top: 24px;
+  align-items: flex-start;
+}
+#card-text {
+  text-align: left;
+}
+#about {
+  background-color: #b2ebf2;
+  -webkit-text-align: center;
+  text-align: center;
+  margin-bottom: 0 !important;
+  
+}
+#details {
+  background-color: #ffccbc;
+  -webkit-text-align: center;
+  text-align: center;
+  padding-bottom: 40px;
+  
+}
+#join {
+  background-color: #c8e6c9;
+  -webkit-text-align: center;
+  text-align: center;
+  
+}
+#support {
+  background-color: #fff;
+  -webkit-text-align: center;
+  text-align: center;
+}
+.schedule {
+   background-color: #fff9c4;
+  -webkit-text-align: center;
+  text-align: center;
+}
+#footer {
+  background-color: #d7deeb;
+  color: #3bb1c3;
+  padding-top: 20px;
+  padding-left: 100px;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  font-family: 'OpenSans-SemiBold', sans-serif;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+p {
+  font-family: 'OpenSans-Light', sans-serif;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  line-height: 44px;
+  
+}  
 .body {
-  background-color: #efefef;
+  background-color: #fff;
 }
 ::selection {
-    background: #3d5afe;
-    color: #fff
+    background: #82b1ff;
+    color: #fff;
 }
 ::-moz-selection {
     background: #3d5afe;
@@ -28,8 +116,8 @@
   overflow: hidden;
   background-color: #fff;
   padding-top: 0%;
-  padding-left: 11%;
-  padding-right: 11%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 /* Style the header links */
