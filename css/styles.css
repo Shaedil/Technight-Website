@@ -11,6 +11,11 @@
   font-family: 'OpenSans-SemiBold';
   url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
 }
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  url("../fonts/OpenSans-Bold.ttf") format("truetype")
+}
 .card-collection {
   padding: 12px;
   padding-right: 60%;
@@ -50,7 +55,7 @@
   background-color: #c8e6c9;
   -webkit-text-align: center;
   text-align: center;
-  
+  padding-bottom: 40px;
 }
 #support {
   background-color: #fff;
@@ -73,10 +78,11 @@ html {
   scroll-behavior: smooth;
 }
 h2 {
-  font-family: 'OpenSans-SemiBold', sans-serif;
+  font-family: 'OpenSans-Bold', sans-serif;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 0px;
+  font-size: 50px;
 }
 p {
   font-family: 'OpenSans-Light', sans-serif;
