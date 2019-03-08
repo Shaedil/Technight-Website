@@ -16,6 +16,9 @@
   font-family: 'OpenSans-Bold';
   url("../fonts/OpenSans-Bold.ttf") format("truetype")
 }
+.myCarousel {
+  height: 
+}
 .card-collection {
   padding: 12px;
   padding-right: 60%;
@@ -39,15 +42,20 @@ hr {
   border: none;
   height: 1px;
   /*Set the hr color*/
-  color: #fff; /*old IE*/
-  background-color: #fff; /*modern browsers*/
+  color: #000; /*old IE*/
+  background-color: #000; /*modern browsers*/
   width: 30%;
 }
+#lftcol {
+  padding-left: 0%;
+}
 #rhtcol {
-  padding: 0px;
+  padding-left: 10%;
+  width: 300px;
 
 }
 .schedule-table th{
+  padding: 5px;
   text-align: left;
   font-size: 18px;
 }
@@ -57,23 +65,23 @@ hr {
 #about {
   color: white;
   padding-top: 5%;
-  background-color: #2d566b;
+  background-color: #9abf69;/*#2d566b;*/
   -webkit-text-align: center;
   text-align: center;
   margin-bottom: 0 !important;
   
 }
 #join {
-  color: white;
-  background-color: #096182;
+  color: black;
+  background-color: #EDF5FC;/*#096182;*/
   -webkit-text-align: center;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 170px;
 }
 
 #details {
   color: white;
-  background-color: #00838f;
+  background-color: #284863;/*#00838f;*/
   -webkit-text-align: center;
   text-align: center;
   padding-bottom: 40px;
@@ -86,13 +94,14 @@ hr {
 }
 .schedule {
   color: white;
-  background-color: #00695c;
+  background-color: #8E2942;/*#00695c;*/
   -webkit-text-align: center;
   text-align: center;
+  padding-bottom: 150px;
 }
 #footer {
   text-align: left;
-  background-color: #d7deeb;
+  background-color: #EDF5FC;/*#d7deeb;*/
   color: #00838f;
   padding-top: 20px;
   padding-left: 100px;
