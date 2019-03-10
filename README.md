@@ -2,5 +2,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a17e59c9-b747-41d1-84dc-36d6035ae8f6/deploy-status)](https://app.netlify.com/sites/technight/deploys)
 
 An improved version of http://technight2019.techhacks.nyc/
+
 ## View
 [Technight](https://technight.netlify.com)
+
+## Licensing
+You may notice that this repository has no license. This is intended. 
+My policy on this repository is stated below, taken from [here.](https://choosealicensecom/no-permission)
+
+> When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that   specifies otherwise, nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or           litigation."
