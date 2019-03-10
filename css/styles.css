@@ -63,7 +63,7 @@ hr {
 }
 #about {
   color: white;
-  background-color: #4e9e41;/*#2d566b;*/
+  background-color: #7e9736;/*#2d566b;*/
   -webkit-text-align: center;
   text-align: center;
   margin-bottom: 0 !important;
@@ -115,7 +115,7 @@ h2 {
 }
 p {
   font-family: 'OpenSans-Light', sans-serif;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   margin-bottom: 0px;
   font-size: 24px;
   line-height: 44px;
