@@ -3,4 +3,4 @@
 
 An improved version of http://technight2019.techhacks.nyc/
 ## View
-[Technight](https://technight.com)
+[Technight](https://technight.netlify.com)
