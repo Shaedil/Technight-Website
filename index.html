@@ -8,6 +8,7 @@
 <meta name="author" content="TechHacks">
 <meta name="description" content="Brooklyn's premier student hackathon.">
 <meta name="keywords" content="Programming, Tech, Hackathon, Code, Technight, TechHacks, Brooklyn Tech, BTHS">
+<!--<meta http-equiv="refresh" content="10"/> -->
 <!--CSS-->
 <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,55 +17,31 @@
 <!--JS-->
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="http://127.0.0.1:8081/js/script.js"></script>
 <link rel="icon" type="images/png" href="./images/favicon.png" sizes="32x32">
 </head>
 <body class="body">
-    <div class="header">
-        <a href="#" class="logo">Technight</a>
-        <div class="header-right">
-            <a href="#about">ABOUT</a>
-            <a href="#join">APPLY</a>
-            <a href="#details">LOGISTICS</a>
-            <a href="#support">SPONSORS</a>
-        </div>
-    </div>
-    <div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <!--One thing to note: photos have to 300x127 pixels-->
-              <img class="d-block w-100" src="./images/technightlogo.svg" alt="Technight logo">
+    <div class="firstpage">
+        <div class="header">
+            <a href="#" class="logo">Technight</a>
+            <div class="header-right">
+                <a href="#about">ABOUT</a>
+                <a href="#join">APPLY</a>
+                <a href="#details">LOGISTICS</a>
+                <a href="#support">SPONSORS</a>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/action.svg" alt="Group of boys looking on a computer in awe">
-              <div class="carousel-caption d-none d-md-block">
-                  <h5>Our hackers put intense focus on their projects</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/suspense.svg" alt="A boy watching a computer in suspense">
-              <div class="carousel-caption d-none d-md-block">
-                  <h5>Our hackathons train diligence</h5>
-              </div>
-            </div>
-          </div>
         </div>
     </div>
     <div id="about" >
         <h2>About</h2>
-        <hr style="background-color:white;"> 
+        <hr style="background-color:white;">
         <br>
         <p>Technight is an annual student-run hackathon based in Brooklyn, New York.<br>
-		   At Technight, we hope to improve students' interest in programming solutions.<br>
+           At Technight, we hope to improve students' interest in programming solutions.<br>
            At Technight, we help connect hackers together through teamwork and pizza.<br>
            Join us this year as we propel technology to new levels and our creative minds.<br>
            We hope to see you at Technight and have a worthwhile experience. <br>
-	</div>
+    </div>
     <div id="join">
         <h2>Register</h2>
         <hr>
@@ -87,7 +64,7 @@
             </button>
         </form>
     </div>
-	<div id="details">
+    <div id="details">
         <h2>FAQ</h2>
         <hr style ="background-color: #fff">
         <br>
@@ -201,7 +178,7 @@
         <div class="mdc-card" style="background-color:#9E2942;color:white;width:420px;margin-left:52.5%;">
           <div class="card-primary">
             <h3><b>Day 2 - 4/14</b></h3>
-            <table class="schedule-table"> 
+            <table class="schedule-table">
                 <tr>
                     <th id="lftcol"><b>Time</b></th>
                     <th id="rhtcol"><b>Event</b></th>
@@ -252,29 +229,29 @@
             </table>
           </div>
         </div>
-	</div>
+    </div>
     <div id="support">
         <h2 style="color: black;">Sponsors</h2>
         <hr style="color:#000;background-color:#000;">
-        <a href="https://www.bthsalumni.org/"><img src="https://www.bthsalumni.org/image/2015-responsive-sample-images/logoSeal.png" style="padding:20px;width:20em;height:20em"></a>
-        <a href="https://www.alpharidge.com"><img src="https://www.alpharidge.com/wp-content/uploads/2018/02/alpharidgelogo.jpg" style="padding:20px;width:20em;height:20em"></a>
-        <a href="https://upfluence.com"><img src="https://static.crozdesk.com/web_app_library/providers/logos/000/005/164/original/upfluence-1530262961-logo.png?1530262961" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="https://www.bthsalumni.org/image/2015-responsive-sample-images/logoSeal.png" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="https://www.alpharidge.com/wp-content/uploads/2018/02/alpharidgelogo.jpg" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="https://static.crozdesk.com/web_app_library/providers/logos/000/005/164/original/upfluence-1530262961-logo.png?1530262961" style="padding:20px;width:20em;height:20em"></a>
         <br>
-        <a href="https://wolfram.com"><img src="./images/wolfram.svg" style="padding:20px;width:20em;height:20em"></a>
-        <a href="https://hasura.com"><img src="./images/hasuranew.svg" style="padding:20px;width:20em;height:20em"></a>
-        <a href="https://upperlinecode.com/"><img src="https://www.techdayhq.com//system/companies/logos/000/002/012/original/Copy_of_Upperline_Logo_FullLockup_better.png?148788897" style="width:15em;height:4em"></a>
+        <a><img src="./images/wolfram.svg" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="./images/hasuranew.svg" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="https://www.techdayhq.com//system/companies/logos/000/002/012/original/Copy_of_Upperline_Logo_FullLockup_better.png?148788897" style="width:15em;height:4em"></a>
         <br>
-        <a href="https://crimsoneducation.com/"><img src="./images/crimson.png" style="width:15em;height:7em;margin:10px;"></a>
-        <a href="https://leangap.org/"><img src="./images/leangap.png" style="width:20em;height:4em;margin:10px"></a>
-        <a href="https://www.princetonreview.com"><img src="./images/review.png" style="width:14em;height:7em;margin:10px"></a>
+        <a><img src="./images/crimson.png" style="width:15em;height:7em;margin:10px;"></a>
+        <a><img src="./images/leangap.png" style="width:20em;height:4em;margin:10px"></a>
+        <a><img src="./images/review.png" style="width:14em;height:7em;margin:10px"></a>
         <br>
-        <a href="https://www.vice.com/"><img src="./images/vice.png" style="width:20em;height:6em;margin-top:65px;"></a>
-        <a href="https://www.bloomberg.com/"><img src="./images/bloomberg.png" style="width:20em;height:4.5em;margin-top:65px;"></a>
-        <a href="https://balsamiq.com/"><img src="https://media.balsamiq.com/files/company/balsamiq-logo-screen.svg" style="width:20em;height:4.5em;margin-top:65px;"></a>
+        <a><img src="./images/vice.png" style="width:20em;height:6em;margin-top:65px;"></a>
+        <a><img src="./images/bloomberg.png" style="width:20em;height:4.5em;margin-top:65px;"></a>
+        <a><img src="https://media.balsamiq.com/files/company/balsamiq-logo-screen.svg" style="width:20em;height:4.5em;margin-top:65px;"></a>
         <h2 style="color:black;">Partners</h2>
         <hr style="color:#000;background-color:#000;">
-        <a href="https://www.microsoft.com/"><img src="./images/msft.png" style="width:36em;height:13em;margin:10px;"></a>
-        <a href="https://events.hackplus.io/"><img src="./images/hackp.png" style="width:21.25em;height:8em;margin:10px;"></a>
+        <a><img src="./images/msft.png" style="width:36em;height:13em;margin:10px;"></a>
+        <a><img src="./images/hackp.png" style="width:21.25em;height:8em;margin:10px;"></a>
     </div>
     <footer id="footer">
         <h3>TechHacks</h3>
