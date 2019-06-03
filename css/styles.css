@@ -6,15 +6,29 @@
   font-family: 'OpenSans-Regular';
   url("../fonts/OpenSans-Regular.ttf") format("truetype")
 }
-
 @font-face {
   font-family: 'OpenSans-SemiBold';
   url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
 }
-
 @font-face {
   font-family: 'OpenSans-Bold';
   url("../fonts/OpenSans-Bold.ttf") format("truetype")
+}
+@font-face {
+  font-family: 'Quicksand-Light';
+  url("../fonts/Quicksand-Light.ttf") format("truetype")
+}
+@font-face {
+  font-family: 'Quicksand-Regular';
+  url("../fonts/Quicksand-Regular.ttf") format("truetype")
+}
+@font-face {
+  font-family: 'Quicksand-Medium';
+  url("../fonts/Quicksand-Medium.ttf") format("truetype")
+}
+@font-face {
+  font-family: 'Quicksand-Bold';
+  url("../fonts/Quicksand-Bold.ttf") format("truetype")
 }
 .myCarousel {
   height: 
@@ -63,15 +77,13 @@ hr {
 }
 #about {
   color: white;
-  background-color: #7e9736;/*#2d566b;*/
   -webkit-text-align: center;
   text-align: center;
   margin-bottom: 0 !important;
   
 }
 #join {
-  color: black;
-  background-color: #EDF5FC;/*#096182;*/
+  background-image: url("../images/stars1.svg");
   -webkit-text-align: center;
   text-align: center;
   padding-bottom: 170px;
@@ -79,30 +91,33 @@ hr {
 #details {
   width: 100%;
   color: white;
-  background-color: #284863;/*#00838f;*/
+  background-image: linear-gradient(black, #284B63);
   -webkit-text-align: center;
   text-align: center;
   padding-bottom: 150px;
-}
-#support {
-  background-color: #fff;
-  -webkit-text-align: center;
-  text-align: center;
 }
 .schedule {
   color: white;
-  background-color: #8E2942;/*#00695c;*/
+  background-color: #284B63;
   -webkit-text-align: center;
   text-align: center;
   padding-bottom: 150px;
 }
+#sponsor {
+  background-image: linear-gradient(#284B63, #8E2942);
+  -webkit-text-align: center;
+  text-align: center;
+}
 #footer {
   text-align: left;
-  background-color: #EDF5FC;/*#d7deeb;*/
-  color: #00838f;
+  background-color: #8E2942;
+  color: white;
   padding-top: 20px;
   padding-left: 100px;
-  
+}
+#footer a {
+  color: white;
+  text-decoration: underline;
 }
 html {
   height: 100%;
@@ -111,6 +126,7 @@ html {
 }
 h2 {
   font-family: 'OpenSans-Bold', sans-serif;
+  color: white;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 0px;
@@ -132,7 +148,7 @@ p {
 }
 .firstpage {
   color: white;
-  background-image: url("../images/technightlogo.svg");
+  background-image: url("../images/testlogo.svg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,7 +158,8 @@ p {
 .body {
   margin: 0;
   height: 100%;
-  background-color: #000;
+  background-image: url("../images/stars-bg.svg");
+;
 }
 ::selection {
     background: #82b1ff;
@@ -151,20 +168,6 @@ p {
 ::-moz-selection {
     background: #3d5afe;
     color: #fff
-}
-.carousel-indicators .active {
-  background-color: #000;
-  width: 10px;
-  height: 10px;
-  border: 0;
-  margin: 10px 15px;
-}
-.carousel-indicators li{
-  background-color: #d5d5d5;
-  width: 10px;
-  height: 10px;
-  border: 0;
-  margin: 10px 15px;
 }
 /* Style the header with a white background and some padding */
 .header {
@@ -191,15 +194,17 @@ p {
 
 /* Style the logo link */
 .header a.logo {
-  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
   font-weight: bold;
 }
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  color: white;
+  color: #fff;
+  position: relative;
+  text-decoration: underline;
 }
-
 /* Float the link section to the right */
 .header-right {
   float: right;
