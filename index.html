@@ -4,11 +4,11 @@
 <title>Technight | A Brooklyn Based Hackathon</title>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=.5">
 <meta name="author" content="TechHacks">
 <meta name="description" content="Brooklyn's premier student hackathon.">
 <meta name="keywords" content="Programming, Tech, Hackathon, Code, Technight, TechHacks, Brooklyn Tech, BTHS">
-<!--<meta http-equiv="refresh" content="10"/> -->
+<!-- <meta http-equiv="refresh" content="10"/> -->
 <!--CSS-->
 <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,10 +17,10 @@
 <!--JS-->
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script src="http://127.0.0.1:8081/js/script.js"></script>
+<!-- <script src="http://127.0.0.1:8081/js/script.js"></script> -->
 <link rel="icon" type="images/png" href="./images/favicon.png" sizes="32x32">
 </head>
-<body class="body">
+<body">
     <div class="firstpage">
         <div class="header">
             <a href="#" class="logo">Technight</a>
@@ -34,31 +34,32 @@
     </div>
     <div id="about" >
         <h2>About</h2>
-        <hr style="background-color:white;">
+        <hr>
         <br>
-        <p>Technight is an annual student-run hackathon based in Brooklyn, New York.<br>
+        <span>Technight is an annual student-run hackathon based in Brooklyn, New York.<br>
            At Technight, we hope to improve students' interest in programming solutions.<br>
            At Technight, we help connect hackers together through teamwork and pizza.<br>
            Join us this year as we propel technology to new levels and our creative minds.<br>
            We hope to see you at Technight and have a worthwhile experience. <br>
+        </span>
     </div>
     <div id="join">
         <h2>Register</h2>
-        <hr style="background-color:white;color:white;">
+        <hr>
         <form action="https://techhacks.typeform.com/to/lPEiT9">
-            <button class="mdc-button mdc-button--raised" style="width:25vw;height:25vh;margin-top:20px;background-color:#222">
+            <button class="mdc-button mdc-button--raised">
                 <h5>
                     <b>Attendees</b>
-                    <hr style="background-color:white;color:white;">
+                    <hr>
                     Apps open
                 </h5>
             </button>
         </form>
         <form action="#">
-            <button class="mdc-button mdc-button--raised" style="width:25vw;height:25vh;margin-top:20px;background-color:#222">
+            <button class="mdc-button mdc-button--raised">
                 <h5>
                     <b>Mentors</b>
-                    <hr style="background-color:white;color:white;">
+                    <hr>
                     Apps not yet open
                 </h5>
             </button>
@@ -66,11 +67,11 @@
     </div>
     <div id="details">
         <h2>FAQ</h2>
-        <hr style ="background-color: #fff">
+        <hr>
         <br>
         <div class="card-collection">
             <!--1st card on left-->
-            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:10%;">
+            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:8%;">
               <div class="card-primary">
                 <h3>Where is Technight?</h3>
                 <div class="mdc-typography--body1" id="card-text">Technight is graciously hosted @The Bushwick Generator.<br>It is located here @ 215 Moore St, Brooklyn, NY 11206.</div>
@@ -86,7 +87,7 @@
         </div>
         <div class="card-collection" id="collection">
             <!--2nd card on left-->
-            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:10%;">
+            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:8%;">
               <div class="card-primary" style="height:129px;">
                 <h3>Who can attend?</h3>
                 <span class="mdc-typography--body1" id="card-text">While Technight is only for high school and middle school students, anyone else can sign up to be a mentor.</span>
@@ -102,7 +103,7 @@
         </div>
         <div class="card-collection" id="collection">
             <!--3rd card on left-->
-            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:10%;">
+            <div class="mdc-card" style="background-color:#222;color:white;float:left;width:475px;margin-right:8%;">
               <div class="card-primary" style="height:129px;">
                 <h3>When does Technight start?</h3>
                 <span class="mdc-typography--body1" id="card-text">Technight starts at 9:00 AM on April 13th, and ends at 1:00 PM on April 14th.</span>
@@ -117,13 +118,13 @@
             </div>
         </div>
     </div>
-    <div class="schedule">
+    <div id="schedule">
         <h2>Schedule</h2>
-        <hr style="background-color: #fff;">
-        <div class="mdc-card" style="background-color:#222;color:white;width:420px;margin-left:20%;float:left;">
+        <hr>
+        <div class="mdc-card" style="background-color:#222;color:white;width:420px;margin-left:25%;float:left;">
           <div class="card-primary">
               <h3><b>Day 1 - 4/13</b></h3>
-              <table class="schedule-table" style="margin-left:">
+              <table class="schedule-table" style="margin-left:10px;">
                 <tr>
                     <th id="lftcol"><b>Time</b></th>
                     <th id="rhtcol"><b>Event</b></th>
@@ -175,7 +176,7 @@
               </table>
           </div>
         </div>
-        <div class="mdc-card" style="background-color:#222;color:white;width:420px;margin-left:52.5%;">
+        <div class="mdc-card" style="background-color:#222;color:white;width:420px;margin-left:25%;">
           <div class="card-primary">
             <h3><b>Day 2 - 4/14</b></h3>
             <table class="schedule-table">
@@ -205,7 +206,7 @@
                 </tr>
                 <tr>
                     <th id="lftcol">9:00 AM</th>
-                    <th id="rhtcol">Finalizing and Submissions</th>
+                    <th id="rhtcol">Submissions</th>
                 </tr>
                     <th id="lftcol">10:00 AM</th>
                     <th id="rhtcol">Submission celebration</th>
@@ -232,24 +233,25 @@
     </div>
     <div id="sponsor">
         <h2>Sponsors</h2>
-        <hr style="color:#fff;background-color:#fff;">
-        <a><img src="https://www.bthsalumni.org/image/2015-responsive-sample-images/logoSeal.png" style="padding:20px;width:20em;height:20em"></a>
-        <a><img src="https://www.alpharidge.com/wp-content/uploads/2018/02/alpharidgelogo.jpg" style="padding:20px;width:20em;height:20em"></a>
-        <a><img src="https://static.crozdesk.com/web_app_library/providers/logos/000/005/164/original/upfluence-1530262961-logo.png?1530262961" style="padding:20px;width:20em;height:20em"></a>
+        <hr>
+        <a><img src="https://www.bthsalumni.org/image/2015-responsive-sample-images/logoSeal.png" style="padding:8px;width:10em;height:10em"></a>
+        <a><img src="https://www.alpharidge.com/wp-content/uploads/2018/02/alpharidgelogo.jpg" style="padding:8px;width:10em;height:10em"></a>
+        <a><img src="https://static.crozdesk.com/web_app_library/providers/logos/000/005/164/original/upfluence-1530262961-logo.png?1530262961" style="padding:8px;width:10em;height:10em"></a>
+        <a><img src="./images/wolfram.svg" style="padding:8px;width:15em;height:15em"></a>
         <br>
-        <a><img src="./images/wolfram.svg" style="padding:20px;width:20em;height:20em"></a>
-        <a><img src="./images/hasuranew.svg" style="padding:20px;width:20em;height:20em"></a>
+        <a><img src="./images/hasuranew.svg" style="padding:8px;width:15em;height:15em"></a>
         <a><img src="https://www.techdayhq.com//system/companies/logos/000/002/012/original/Copy_of_Upperline_Logo_FullLockup_better.png?148788897" style="width:15em;height:4em"></a>
+        <a><img src="./images/crimson.png" style="width:15em;height:7em;margin:8px;"></a>
         <br>
-        <a><img src="./images/crimson.png" style="width:15em;height:7em;margin:10px;"></a>
-        <a><img src="./images/leangap.png" style="width:20em;height:4em;margin:10px"></a>
+        <a><img src="./images/leangap.png" style="width:20em;height:4em;margin:35px"></a>
         <a><img src="./images/review.png" style="width:14em;height:7em;margin:10px"></a>
+        <a><img src="https://media.balsamiq.com/files/company/balsamiq-logo-screen.svg" style="width:20em;height:4.5em;margin-top:10px;"></a>
         <br>
-        <a><img src="./images/vice.png" style="width:20em;height:6em;margin-top:65px;"></a>
-        <a><img src="./images/bloomberg.png" style="width:20em;height:4.5em;margin-top:65px;"></a>
-        <a><img src="https://media.balsamiq.com/files/company/balsamiq-logo-screen.svg" style="width:20em;height:4.5em;margin-top:65px;"></a>
+        <a><img src="./images/vice.png" style="width:18em;height:5em;margin-top:70px;margin-right:20px;"></a>
+        <a><img src="./images/bloomberg.png" style="width:18em;height:4em;margin-top:80px;margin-left:20px;"></a>
+        <br>
         <h2>Partners</h2>
-        <hr style="color:#fff;background-color:#fff;">
+        <hr>
         <a><img src="./images/msft.png" style="width:36em;height:13em;margin:10px;"></a>
         <a><img src="./images/hackp.png" style="width:21.25em;height:8em;margin:10px;"></a>
     </div>

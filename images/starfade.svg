@@ -15,7 +15,7 @@
    stroke-miterlimit="10"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="stars1.svg">
+   sodipodi:docname="starfade.svg">
   <metadata
      id="metadata69">
     <rdf:RDF>
@@ -42,9 +42,9 @@
      inkscape:window-height="838"
      id="namedview65"
      showgrid="false"
-     inkscape:zoom="5.4305801"
-     inkscape:cx="113.89261"
-     inkscape:cy="129.43303"
+     inkscape:zoom="3.84"
+     inkscape:cx="167.0929"
+     inkscape:cy="53.622039"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -59,7 +59,7 @@
   <g
      clip-path="url(#p.0)"
      id="g7"
-     transform="matrix(1,0,0,0.927503,0.03159377,9.375)">
+     transform="matrix(1.006138,0,0,0.927503,-1.0732606,25)">
     <path
        d="m 0,0 300,0 0,127 -300,0 z"
        id="path9"
@@ -204,8 +204,8 @@
   <rect
      style="fill:#000000"
      id="rect3397"
-     width="300.52039"
-     height="16.020388"
-     x="0"
+     width="301.99353"
+     height="26.957888"
+     x="-1.1048543"
      y="-0.2423923" />
 </svg>
