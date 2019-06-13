@@ -1,8 +1,0 @@
-=Colors for website=
-    * Red: #8E2942
-    * Footer: #D9DFE2
-    * "White": #EDF5FC
-    * Blue: #284B63
-    * Cyan: #99E1D9
-     
-	
