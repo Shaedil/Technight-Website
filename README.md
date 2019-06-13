@@ -1,5 +1,5 @@
 # TechHacks-Website
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a17e59c9-b747-41d1-84dc-36d6035ae8f6/deploy-status)](https://app.netlify.com/sites/technight/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8e7cfe61-ee01-44c3-a331-9a767ee69af7/deploy-status)](https://app.netlify.com/sites/technight/deploys)
 
 An improved version of http://technight2019.techhacks.nyc/
 
