@@ -1,0 +1,877 @@
+[
+  {
+    "userId": "1",
+    "id": 1,
+    "title" : "3D Productions Club"
+  },
+  {
+    "userId": "2",
+    "id": 2,
+    "title" : "Active Community Teamwork"
+  },
+  {
+    "userId": "2",
+    "id": 3,
+    "title" : "Advocates For Research And Change"
+  },
+  {
+    "userId": "2",
+    "id": 4,
+    "title" : "Aerospace Engineering"
+  },
+  {
+    "userId": "2",
+    "id": 5,
+    "title" : "AIAS Architecture Club"
+  },
+  {
+    "userId": "2",
+    "id": 6,
+    "title" : "All Tongues, One Voice"
+  },
+  {
+    "userId": "2",
+    "id": 7,
+    "title" : "Amateur Radio And Wireless Technology"
+  },
+  {
+    "userId": "2",
+    "id": 8,
+    "title" : "Anime Connections"
+  },
+  {
+    "userId": "2",
+    "id": 9,
+    "title" : "Apps4Good"
+  },
+  {
+    "userId": "2",
+    "id": 10,
+    "title" : "Art Club"
+  },
+  {
+    "userId": "2",
+    "id": 11,
+    "title" : "Aspira"
+  },
+  {
+    "userId": "2",
+    "id": 12,
+    "title" : "Astronomy Club"
+  },
+  {
+    "userId": "2",
+    "id": 13,
+    "title" : "Atheist And Secular Student Club"
+  },
+  {
+    "userId": "2",
+    "id": 14,
+    "title" : "Auscultate"
+  },
+  {
+    "userId": "2",
+    "id": 15,
+    "title" : "Autoimmune Disease Awareness"
+  },
+  {
+    "userId": "2",
+    "id": 16,
+    "title" : "Automobile Club"
+  },
+  {
+    "userId": "3",
+    "id": 17,
+    "title" : "Badminton Club"
+  },
+  {
+    "userId": "3",
+    "id": 18,
+    "title" : "Baking a Difference"
+  },
+  {
+    "userId": "3",
+    "id": 19,
+    "title" : "Basketball Skills and Drills"
+  },
+  {
+    "userId": "3",
+    "id": 20,
+    "title" : "Belly Dance"
+  },
+  {
+    "userId": "3",
+    "id": 21,
+    "title" : "Beta"
+  },
+  {
+    "userId": "3",
+    "id": 22,
+    "title" : "Beyond The Book"
+  },
+  {
+    "userId": "3",
+    "id": 23,
+    "title" : "Black Student Union"
+  },
+  {
+    "userId": "3",
+    "id": 24,
+    "title" : "Board Game Club"
+  },
+  {
+    "userId": "3",
+    "id": 25,
+    "title" : "Body Empowerment"
+  },
+  {
+    "userId": "3",
+    "id": 26,
+    "title" : "Books 'N Beyond"
+  },
+  {
+    "userId": "3",
+    "id": 27,
+    "title" : "Breakfast Club"
+  },
+  {
+    "userId": "3",
+    "id": 28,
+    "title" : "Brooklyn Tech Cadet Squadron"
+  },
+  {
+    "userId": "3",
+    "id": 29,
+    "title" : "Brooklyn Tech Rugby Football Club"
+  },
+  {
+    "userId": "3",
+    "id": 30,
+    "title" : "Brooklyn Techknights Robotics Team"
+  },
+  {
+    "userId": "3",
+    "id": 31,
+    "title" : "Brookyln Technical History Club"
+  },
+  {
+    "userId": "3",
+    "id": 32,
+    "title" : "BTHS Bouldering"
+  },
+  {
+    "userId": "3",
+    "id": 33,
+    "title" : "BTHS Crochet Club"
+  },
+  {
+    "userId": "3",
+    "id": 34,
+    "title" : "BTHS Dragonboat"
+  },
+  {
+    "userId": "3",
+    "id": 35,
+    "title" : "BTHS For Worldwide Sports"
+  },
+  {
+    "userId": "3",
+    "id": 36,
+    "title" : "BTSH Interact Club"
+  },
+  {
+    "userId": "3",
+    "id": 37,
+    "title" : "BTHS Key Club"
+  },
+  {
+    "userId": "3",
+    "id": 38,
+    "title" : "BTHS Makerspace"
+  },
+  {
+    "userId": "3",
+    "id": 39,
+    "title" : "BTHS SkillsUSA Chapter"
+  },
+  {
+    "userId": "3",
+    "id": 40,
+    "title" : "BTHS Smash Club"
+  },
+  {
+    "userId": "3",
+    "id": 41,
+    "title" : "BTHS UNICEF"
+  },
+  {
+    "userId": "3",
+    "id": 42,
+    "title" : "BTHS-ASCE"
+  },
+  {
+    "userId": "4",
+    "id": 43,
+    "title" : "Calisthenics Club"
+  },
+  {
+    "userId": "4",
+    "id": 44,
+    "title" : "Capoeira Club"
+  },
+  {
+    "userId": "4",
+    "id": 45,
+    "title" : "Check Into Tech"
+  },
+  {
+    "userId": "4",
+    "id": 46,
+    "title" : "Checkers Club"
+  },
+  {
+    "userId": "4",
+    "id": 47,
+    "title" : "Chemical Engineering Major Executive Board"
+  },
+  {
+    "userId": "4",
+    "id": 48,
+    "title" : "Chess Club"
+  },
+  {
+    "userId": "4",
+    "id": 49,
+    "title" : "Chinese Board Game"
+  },
+  {
+    "userId": "4",
+    "id": 50,
+    "title" : "Christian Seekers"
+  },
+  {
+    "userId": "4",
+    "id": 51,
+    "title" : "Computer Programming Competition Club"
+  },
+  {
+    "userId": "4",
+    "id": 52,
+    "title" : "Connect With Tech"
+  },
+  {
+    "userId": "4",
+    "id": 52,
+    "title" : "Cosmetology Club"
+  },
+  {
+    "userId": "4",
+    "id": 53,
+    "title" : "Cosplay Club"
+  },
+  {
+    "userId": "4",
+    "id": 54,
+    "title" : "CSI Club"
+  },
+  {
+    "userId": "5",
+    "id": 55,
+    "title" : "Dance Club"
+  },
+  {
+    "userId": "5",
+    "id": 56,
+    "title" : "Danceroid02"
+  },
+  {
+    "userId": "5",
+    "id": 57,
+    "title" : "Debate Team"
+  },
+  {
+    "userId": "5",
+    "id": 58,
+    "title" : "Difficult Conversations"
+  },
+  {
+    "userId": "5",
+    "id": 59,
+    "title" : "Disney Club"
+  },
+  {
+    "userId": "5",
+    "id": 60,
+    "title" : "Doctor of Tomorrow"
+  },
+  {
+    "userId": "5",
+    "id": 61,
+    "title" : "Dr. Who Club"
+  },
+  {
+    "userId": "5",
+    "id": 62,
+    "title" : "Drama Club"
+  },
+  {
+    "userId": "6",
+    "id": 63,
+    "title" : "Embroidery Club"
+  },
+  {
+    "userId": "6",
+    "id": 64,
+    "title" : "Environmental Defense Club"
+  },
+  {
+    "userId": "6",
+    "id": 65,
+    "title" : "Environmental Justice"
+  },
+  {
+    "userId": "6",
+    "id": 66,
+    "title" : "Envirothon"
+  },
+  {
+    "userId": "6",
+    "id": 67,
+    "title" : "ESports"
+  },
+  {
+    "userId": "7",
+    "id": 68,
+    "title" : "Fundrasing"
+  },
+  {
+    "userId": "8",
+    "id": 69,
+    "title" : "Game Creation"
+  },
+  {
+    "userId": "8",
+    "id": 70,
+    "title" : "Gay Straight Alliance"
+  },
+  {
+    "userId": "8",
+    "id": 71,
+    "title" : "Girls Who Code"
+  },
+  {
+    "userId": "8",
+    "id": 72,
+    "title" : "Graphic Design Club"
+  },
+  {
+    "userId": "8",
+    "id": 73,
+    "title" : "Green Ambassadors"
+  },
+  {
+    "userId": "8",
+    "id": 74,
+    "title" : "Greenthumb"
+  },
+  {
+    "userId": "8",
+    "id": 75,
+    "title" : "GUNPLA (Model Building) Club"
+  },
+  {
+    "userId": "9",
+    "id": 76,
+    "title" : "H.O.P.E."
+  },
+  {
+    "userId": "9",
+    "id": 77,
+    "title" : "HeforShe"
+  },
+  {
+    "userId": "9",
+    "id": 78,
+    "title" : "Hip Hop Dance Club"
+  },
+  {
+    "userId": "9",
+    "id": 79,
+    "title" : "Hip-Hop / Breakdance Club"
+  },
+  {
+    "userId": "9",
+    "id": 80,
+    "title" : "Horizons"
+  },
+  {
+    "userId": "10",
+    "id": 81,
+    "title" : "I-Help Liberia"
+  },
+  {
+    "userId": "10",
+    "id": 82,
+    "title" : "IL Club Italiano"
+  },
+  {
+    "userId": "10",
+    "id": 83,
+    "title" : "Immigrant Culture Club"
+  },
+  {
+    "userId": "10",
+    "id": 84,
+    "title" : "Interior Design Club"
+  },
+  {
+    "userId": "11",
+    "id": 85,
+    "title" : "Jewish Culture Club"
+  },
+  {
+    "userId": "11",
+    "id": 86,
+    "title" : "Juggling Club"
+  },
+  {
+    "userId": "11",
+    "id": 87,
+    "title" : "Junior State of America"
+  },
+  {
+    "userId": "11",
+    "id": 88,
+    "title" : "Justice For All"
+  },
+  {
+    "userId": "12",
+    "id": 89,
+    "title" : "Korean Students Association (KSA)"
+  },
+  {
+    "userId": "12",
+    "id": 90,
+    "title" : "Kover Dance"
+  },
+  {
+    "userId": "12",
+    "id": 91,
+    "title" : "K-Pop Club"
+  },
+  {
+    "userId": "13",
+    "id": 92,
+    "title" : "Lacrosse Club"
+  },
+  {
+    "userId": "13",
+    "id": 93,
+    "title" : "Lady Dragons Step Team"
+  },
+  {
+    "userId": "13",
+    "id": 94,
+    "title" : "LAN Party Gaming Club"
+  },
+  {
+    "userId": "13",
+    "id": 95,
+    "title" : "Laying The Foundation"
+  },
+  {
+    "userId": "13",
+    "id": 96,
+    "title" : "Linguistics Club"
+  },
+  {
+    "userId": "14",
+    "id": 97,
+    "title" : "Model UN"
+  },
+  {
+    "userId": "14",
+    "id": 98,
+    "title" : "Moot Court/Mock Trial Team"
+  },
+  {
+    "userId": "14",
+    "id": 99,
+    "title" : "Mural Painting"
+  },
+  {
+    "userId": "14",
+    "id": 100,
+    "title" : "Music Club"
+  },
+  {
+    "userId": "14",
+    "id": 101,
+    "title" : "Muslim Interscholastic Tournament (MIST)"
+  },
+  {
+    "userId": "14",
+    "id": 102,
+    "title" : "Muslim Student Association (MSA)"
+  },
+  {
+    "userId": "15",
+    "id": 103,
+    "title" : "National Science Bowl"
+  },
+  {
+    "userId": "15",
+    "id": 104,
+    "title" : "National Society Of Black Engineers"
+  },
+  {
+    "userId": "15",
+    "id": 105,
+    "title" : "NBA Fan Club"
+  },
+  {
+    "userId": "15",
+    "id": 106,
+    "title" : "Neurology Club"
+  },
+  {
+    "userId": "15",
+    "id": 107,
+    "title" : "Nintendo Switch Club"
+  },
+  {
+    "userId": "16",
+    "id": 108,
+    "title" : "Operation Smile"
+  },
+  {
+    "userId": "16",
+    "id": 109,
+    "title" : "Organized Chaos"
+  },
+  {
+    "userId": "16",
+    "id": 110,
+    "title" : "Origami Club"
+  },
+  {
+    "userId": "16",
+    "id": 111,
+    "title" : "Outreach"
+  },
+  {
+    "userId": "16",
+    "id": 112,
+    "title" : "Overbite"
+  },
+  {
+    "userId": "17",
+    "id": 113,
+    "title" : "Philosophy and Sociology Club"
+  },
+  {
+    "userId": "17",
+    "id": 114,
+    "title" : "Philosophy Club"
+  },
+  {
+    "userId": "17",
+    "id": 115,
+    "title" : "Photography Club"
+  },
+  {
+    "userId": "17",
+    "id": 116,
+    "title" : "Politics in Action"
+  },
+  {
+    "userId": "17",
+    "id": 117,
+    "title" : "Pre-med Society"
+  },
+  {
+    "userId": "17",
+    "id": 118,
+    "title" : "Progressive Student Awareness"
+  },
+  {
+    "userId": "17",
+    "id": 119,
+    "title" : "Psychology Club"
+  },
+  {
+    "userId": "17",
+    "id": 120,
+    "title" : "Psychosocial Research Club"
+  },
+  {
+    "userId": "17",
+    "id": 121,
+    "title" : "Public Forum Debate Team"
+  },
+  {
+    "userId": "18",
+    "id": 122,
+    "title" : "RAP Club"
+  },
+  {
+    "userId": "18",
+    "id": 123,
+    "title" : "Readers' Delight"
+  },
+  {
+    "userId": "18",
+    "id": 124,
+    "title" : "Red Cross"
+  },
+  {
+    "userId": "18",
+    "id": 125,
+    "title" : "Relay For Life"
+  },
+  {
+    "userId": "18",
+    "id": 126,
+    "title" : "Respect For All"
+  },
+  {
+    "userId": "18",
+    "id": 127,
+    "title" : "RISE"
+  },
+  {
+    "userId": "18",
+    "id": 128,
+    "title" : "Rubik's Cubes Club"
+  },
+  {
+    "userId": "18",
+    "id": 129,
+    "title" : "Ruby Engineers"
+  },
+  {
+    "userId": "19",
+    "id": 130,
+    "title" : "S.A.S.E"
+  },
+  {
+    "userId": "19",
+    "id": 131,
+    "title" : "Sailing Club"
+  },
+  {
+    "userId": "19",
+    "id": 132,
+    "title" : "SAT Prep Club"
+  },
+  {
+    "userId": "19",
+    "id": 133,
+    "title" : "Science Innovations Without Borders"
+  },
+  {
+    "userId": "19",
+    "id": 134,
+    "title" : "Science Olympiad"
+  },
+  {
+    "userId": "19",
+    "id": 135,
+    "title" : "Shirt Club"
+  },
+  {
+    "userId": "19",
+    "id": 136,
+    "title" : "Ski and Snowboarding Club"
+  },
+  {
+    "userId": "19",
+    "id": 137,
+    "title" : "Soccer Club"
+  },
+  {
+    "userId": "19",
+    "id": 138,
+    "title" : "Social Activism in Sports"
+  },
+  {
+    "userId": "19",
+    "id": 139,
+    "title" : "Society of Women Engineers"
+  },
+  {
+    "userId": "20",
+    "id": 140,
+    "title" : "Sole Hope"
+  },
+  {
+    "userId": "20",
+    "id": 141,
+    "title" : "Speak For Success"
+  },
+  {
+    "userId": "20",
+    "id": 142,
+    "title" : "STAND"
+  },
+  {
+    "userId": "20",
+    "id": 143,
+    "title" : "STEAM"
+  },
+  {
+    "userId": "20",
+    "id": 144,
+    "title" : "Stock Market Club"
+  },
+  {
+    "userId": "20",
+    "id": 145,
+    "title" : "Student Film Club"
+  },
+  {
+    "userId": "20",
+    "id": 146,
+    "title" : "Student Media"
+  },
+  {
+    "userId": "20",
+    "id": 147,
+    "title" : "Student-Athlete Leadership Team (SALT)"
+  },
+  {
+    "userId": "20",
+    "id": 148,
+    "title" : "Students For Sensible Drug Policy"
+  },
+  {
+    "userId": "21",
+    "id": 149,
+    "title" : "Tabletop Gaming"
+  },
+  {
+    "userId": "21",
+    "id": 150,
+    "title" : "TCG Club"
+  },
+  {
+    "userId": "21",
+    "id": 151,
+    "title" : "Teachers of Technology"
+  },
+  {
+    "userId": "21",
+    "id": 152,
+    "title" : "Tech Fusionists"
+  },
+  {
+    "userId": "21",
+    "id": 153,
+    "title" : "Tech Treks"
+  },
+  {
+    "userId": "21",
+    "id": 154,
+    "title" : "TechHacks"
+  },
+  {
+    "userId": "21",
+    "id": 155,
+    "title" : "TELL (Think, Educate, Listen, Learn)"
+  },
+  {
+    "userId": "21",
+    "id": 156,
+    "title" : "The Bob Ross Club"
+  },
+  {
+    "userId": "21",
+    "id": 157,
+    "title" : "The Brookyln Times"
+  },
+  {
+    "userId": "21",
+    "id": 158,
+    "title" : "The East Asian Language Club (TEAL Club)"
+  },
+  {
+    "userId": "21",
+    "id": 159,
+    "title" : "The Matriarchy"
+  },
+  {
+    "userId": "21",
+    "id": 160,
+    "title" : "The Radish"
+  },
+  {
+    "userId": "21",
+    "id": 161,
+    "title" : "The Survey"
+  },
+  {
+    "userId": "21",
+    "id": 162,
+    "title" : "Thirst Project"
+  },
+  {
+    "userId": "21",
+    "id": 163,
+    "title" : "TIC-TOC: Tech In Chinese, Translation Outreach Club"
+  },
+  {
+    "userId": "22",
+    "id": 164,
+    "title" : "Ultimate Frisbee Team"
+  },
+  {
+    "userId": "22",
+    "id": 165,
+    "title" : "United Nations Awareness Club"
+  },
+  {
+    "userId": "22",
+    "id": 166,
+    "title" : "Urban Anthropology"
+  },
+  {
+    "userId": "23",
+    "id": 167,
+    "title" : "Vietnamese Club"
+  },
+  {
+    "userId": "24",
+    "id": 168,
+    "title" : "Watercoloring Club"
+  },
+  {
+    "userId": "24",
+    "id": 169,
+    "title" : "Women For Women"
+  },
+  {
+    "userId": "24",
+    "id": 170,
+    "title" : "World Heritage Alliance"
+  },
+  {
+    "userId": "24",
+    "id": 171,
+    "title" : "Writer's Book Club"
+  },
+  {
+    "userId": "25",
+    "id": 172,
+    "title" : "Young Entrepeneurs Association"
+  },
+  {
+    "userId": "22",
+    "id": 173,
+    "title" : "Young Women's Leadership"
+  },
+  {
+    "userId": "22",
+    "id": 174,
+    "title" : "Youth Against Child Trafficking (Y-ACT)"
+  }
+]
