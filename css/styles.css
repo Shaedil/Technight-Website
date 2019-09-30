@@ -1,78 +1,77 @@
-/* The fonts for webpage */
+/*{{{ The fonts for webpage*/ 
 @font-face {
-  font-family: 'OpenSans-Light';
-  url("../fonts/OpenSans-Light.ttf") format("truetype")
+    font-family: 'OpenSans-Light';
+    url("../fonts/OpenSans-Light.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'OpenSans-Regular';
-  url("../fonts/OpenSans-Regular.ttf") format("truetype")
+    font-family: 'OpenSans-Regular';
+    url("../fonts/OpenSans-Regular.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'OpenSans-SemiBold';
-  url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
+    font-family: 'OpenSans-SemiBold';
+    url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'OpenSans-Bold';
-  url("../fonts/OpenSans-Bold.ttf") format("truetype")
+    font-family: 'OpenSans-Bold';
+    url("../fonts/OpenSans-Bold.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'Quicksand-Light';
-  url("../fonts/Quicksand-Light.ttf") format("truetype")
+    font-family: 'Quicksand-Light';
+    url("../fonts/Quicksand-Light.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'Quicksand-Regular';
-  url("../fonts/Quicksand-Regular.ttf") format("truetype")
+    font-family: 'Quicksand-Regular';
+    url("../fonts/Quicksand-Regular.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'Quicksand-Medium';
-  url("../fonts/Quicksand-Medium.ttf") format("truetype")
+    font-family: 'Quicksand-Medium';
+    url("../fonts/Quicksand-Medium.ttf") format("truetype")
 }
 @font-face {
-  font-family: 'Quicksand-Bold';
-  url("../fonts/Quicksand-Bold.ttf") format("truetype")
-}
-body {
-  margin: 0;
-  height: 100%;
+    font-family: 'Quicksand-Bold';
+    url("../fonts/Quicksand-Bold.ttf") format("truetype")
+}/*}}}*/
+body {/*{{{ Original/Desktop DONE*/
+    margin: 0;
+    height: 100%;
 }
 html {
-  height: 100%;
-  margin: 0;
-  scroll-behavior: smooth;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 h2 {
-  font-family: 'OpenSans-Bold', sans-serif;
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  margin-top: 0px;
-  font-size: 50px;
+    font-family: 'OpenSans-Bold', sans-serif;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    font-size: 50px;
 }
 p {
-  font-family: 'OpenSans-Light', sans-serif;
-  padding-bottom: 200px;
-  margin-bottom: 0px;
-  font-size: 24px;
-  line-height: 44px;
+    padding-bottom: 200px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 44px;
 }
 span {
-  font-family: 'OpenSans-Light', sans-serif;
-  margin-bottom: 0px;
-  font-size: 20px;
-  line-height: 44px;
+    font-family: 'OpenSans-Light', sans-serif;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 44px;
 }
 hr {
-  width: 50%;
-  color: white;
-  background-color: white;
+    width: 50%;
+    color: white;
+    background-color: white;
 }
 .firstpage {
-  color: white;
-  background-image: url("../images/spacemoonlogo.svg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    color: white;
+    background-image: url("../images/spacemoonlogo.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .firstpage h2{
     font-size: 50px;
@@ -81,45 +80,45 @@ hr {
 }
 /* Style the header with a white background and some padding */
 .header {
-  overflow: hidden;
-  color: white;
-  padding-top: 0%;
-  padding-left: 8%;
-  padding-right: 8%;
+    overflow: hidden;
+    color: white;
+    padding-top: 0%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 /* Style the header links */
 .header a {
-  float: left;
-  color: #fff;
-  text-align: center;
-  padding: 25px;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 25px;
-  border-radius: 4px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 4px;
 }
 /* Style the logo link */
 .header a.logo {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 40px;
-  font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 }
 /* Underline link on mouse-over */
 .header a:hover {
-  color: #fff;
-  position: relative;
-  text-decoration: underline;
+    color: #fff;
+    position: relative;
+    text-decoration: underline;
 }
 /* Float the link section to the right */
 .header-right {
-   float: right;
+    float: right;
 }
 .card-collection {
-  padding: 12px;
-  padding-left: 17%;
-  border-radius: 2px;
+    padding: 12px;
+    padding-left: 17%;
+    border-radius: 2px;
 }
 .mdc-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -128,77 +127,81 @@ hr {
     transition: border-radius 100ms cubic-bezier(.4, 0, .2, 1);
 }
 .card-primary {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-  padding-top: 24px;
-  align-items: flex-start;
-  background-color: Dimgrey;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    padding-top: 24px;
+    align-items: flex-start;
+    background-color: Dimgrey;
+    color: white;
 }
 #lftcol {
-  padding-left: 0%;
-  width: 100px;
+    padding-left: 0%;
+    width: 100px;
 }
 #rhtcol {
-  padding-left: 20%;
-  width: 300px;
+    padding-left: 20%;
+    width: 300px;
 }
 .schedule-table th{
-  text-align: left;
-  font-size: 18px;
+    text-align: left;
+    font-size: 18px;
 }
 #card-text {
-  text-align: left;
+    text-align: left;
 }
 #about {
-  background-image: url("../images/starscontinued.svg");
-  color: white;
-  text-align: center;
-  margin-bottom: 0 !important;
+    background-image: url("../images/starscontinued.svg");
+    color: white;
+    text-align: center;
+    margin-bottom: 0 !important;
 }
 #join {
-  background-image: url("../images/starfade.svg");
-  -webkit-text-align: center;
-  text-align: center;
-  padding-bottom: 170px;
+	background-color: black;
+    -webkit-text-align: center;
+    text-align: center;
+    padding-bottom: 170px;
 }
 #join button{
-  width: 20vw;
-  height: 30vh;
-  margin-top: 20px;
-  background-color: #222;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 20px;
+    background-color: #222;
 }
 #details {
-  width: 100%;
-  color: white;
-  background-image: linear-gradient(black, #284B63);
-  -webkit-text-align: center;
-  text-align: center;
-  padding-bottom: 150px;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(black, #284B63);
+    -webkit-text-align: center;
+    text-align: center;
+    padding-bottom: 150px;
 }
 #schedule {
-  color: white;
-  background-color: #284B63;
-  background-image: url("../images/scheduleclouds.svg");
-  -webkit-text-align: center;
-  text-align: center;
-  padding-bottom: 150px;
+    color: white;
+    background-color: #284B63;
+    background-image: url("../images/scheduleclouds.svg");
+    -webkit-text-align: center;
+    text-align: center;
+    padding-bottom: 150px;
 }
 #sponsor {
-  background-image: linear-gradient(#284B63, #8E2942);
-  -webkit-text-align: center;
-  text-align: center;
+    background-image: linear-gradient(#284B63, #8E2942);
+    -webkit-text-align: center;
+    text-align: center;
 }
 #footer {
-  padding-left: 8%;
-  background-color: #8E2942;
-  background-image: url("../images/worldfooter.svg");
-  color: white;
+    padding-left: 8%;
+    background-color: #8E2942;
+    background-image: url("../images/worldfooterfordesktop.svg");
+    color: white;
+}
+#footer h5 {
+    padding-bottom: 10px;
+    margin-bottom: 0rem;
 }
 #footer a {
-  color: white;
-  text-decoration: underline;
+    color: white;
+    text-decoration: underline;
 }
 ::selection {
     background: #82b1ff;
@@ -207,33 +210,162 @@ hr {
 ::-moz-selection {
     background: #3d5afe;
     color: #fff
-}
-/* Add media queries for responsiveness
- * The screen is 500px wide or less, keep the links next to each other */
-@media (max-width: 767px) {
-  .header a {
-    float: left;
-    color: #fff;
-    text-align: center;
-    padding: 18px;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  .header-right {
-    float: none;
-  }
-  hr {
-    color: white;
-    background-color: white;
-  }
-  #join button {
-    width: 40vw;
-    height: 20vh;
-    margin-top: 20px;
-    background-color: #222;
-  }
-}
+}/*}}}*/
+@media (min-width: 359px) and (max-width: 767px) {/*{{{ Nexus5/BlackberryZ30/Galaxy S5/iPhone6/7/8 DONE */
+    html {
+        background-color: #8E2942;
+    }
+    .schedule-table th {
+        font-size: 22px;
+    }
+    #lftcol {
+        width: 150px;
+    }
+    #rhtcol {
+        padding-left: 12%;
+    }
+    #schedule h2 {
+        padding-top: 75px;
+    }
+    #schedule {
+        padding-bottom: 75px;
+    }
+    #card-text {
+        font-size: 16px;
+    }
+    #footer {
+        padding-top: 30px;
+        background-image: url("../images/worldfooterfornexus5.svg");
+        width: 100%;
+        height: 17%;
+    }
+    #footer h5 {
+        padding-bottom: 10px;
+        margin-bottom: 0rem;
+    }
+    #footer h5:last-child {
+        padding-bottom: 0px;
+    }
+	/* #footer h5 */ 
+    .header {
+        overflow: hidden;
+        color: white;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #about span {
+        font-family: 'OpenSans-Light', sans-serif;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 30px;
+        line-height: 60px;
+        word-wrap: break-word;
+    }
+    .header a {
+        float: left;
+        color: #fff;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 2px;
+    }
+    .header-right {
+        float: none;
+    }
+    hr {
+        color: white;
+        background-color: white;
+    }
+    #join button {
+        width: 40vw;
+        height: 20vh;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+    }
+    .firstpage {
+        background-image: url("../images/smallspacemoonlogo.svg");
+	}
+	#schedule-cards {
+		margin-left: 22% !important;
+	}
+	.card-collection {
+		padding-left: 18%;
+	}
+}/*}}}*/
+@media (min-width: 800px) and (max-width: 824px) { /*{{{Nexus5X/iPhone/Pixel*/
+    #footer {
+        padding-top: 30px;
+        background-image: url("../images/worldfooterfornexus5X.svg");
+    }
+    #footer h5 {
+        padding-bottom: 10px;
+        margin-bottom: 0rem;
+    }
+    .firstpage {
+        background-image: url("../images/smallspacemoonlogo.svg");
+	}
+	.header a {
+		font-size: 22px;
+		font-weight: bold;
+		border-radius: 2px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 10px;
+		padding-top: 40px;
+		float: left;
+	}
+	#about span {
+        font-family: 'OpenSans-Light', sans-serif;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 30px;
+        line-height: 60px;
+        word-wrap: break-word;
+	}
+    #join button {
+        width: 40vw;
+        height: 20vh;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+    }
+	.card-collection {
+		padding-left: 22%;
+	}
+}/*}}}*/
+@media (min-width: 824px) and (max-width: 900px) {/*{{{iPhone plus*/
+    .firstpage {
+        background-image: url("../images/smallspacemoonlogo.svg");
+	}
+	html {
+		width: 100.1%;
+	}
+	.header a {
+		font-size: 24px;
+		font-weight: bold;
+		border-radius: 2px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 10px;
+		padding-top: 40px;
+		float: left;
+	}
+	#about span {
+        font-family: 'OpenSans-Light', sans-serif;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 30px;
+        line-height: 60px;
+        word-wrap: break-word;
+	}
+    #join button {
+        width: 40vw;
+        height: 20vh;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+    }
+}/*}}}*/
