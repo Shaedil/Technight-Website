@@ -297,7 +297,7 @@ hr {
 		padding-left: 18%;
 	}
 }/*}}}*/
-@media (min-width: 800px) and (max-width: 824px) { /*{{{Nexus5X/iPhone/Pixel*/
+@media (min-width: 800px) and (max-width: 824px) {/*{{{Nexus5X/iPhone/Pixel DONE*/
     #footer {
         padding-top: 30px;
         background-image: url("../images/worldfooterfornexus5X.svg");
@@ -337,12 +337,12 @@ hr {
 		padding-left: 22%;
 	}
 }/*}}}*/
-@media (min-width: 824px) and (max-width: 900px) {/*{{{iPhone plus*/
+@media (min-width: 824px) and (max-width: 900px) {/*{{{iPhone plus DONE*/
     .firstpage {
         background-image: url("../images/smallspacemoonlogo.svg");
 	}
 	html {
-		width: 100.1%;
+		width: 100.2%;
 	}
 	.header a {
 		font-size: 24px;
@@ -352,6 +352,35 @@ hr {
 		padding: 10px;
 		padding-top: 40px;
 		float: left;
+	}
+	#about span {
+        font-family: 'OpenSans-Light', sans-serif;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 30px;
+        line-height: 60px;
+        word-wrap: break-word;
+	}
+    #join button {
+        width: 40vw;
+        height: 20vh;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+    }
+}/*}}}*/
+@media (min-width: 900px) and (max-width: 1200px) {/*{{{iPad */
+	.header a {
+		font-size: 42px;
+		font-weight: bold;
+		border-radius: 2px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 20px;
+		padding-top: 40px;
+		float: left;
+	}
+	.header a.logo {
+		font-size: 60px;
 	}
 	#about span {
         font-family: 'OpenSans-Light', sans-serif;
