@@ -162,12 +162,6 @@ hr {
     text-align: center;
     padding-bottom: 170px;
 }
-#join button{
-    width: 20vw;
-    height: 30vh;
-    margin-top: 20px;
-    background-color: #222;
-}
 #details {
     width: 100%;
     color: white;
@@ -441,7 +435,8 @@ hr {
 		padding-left: 29%;
 		border-radius: 2px;
 	}
-	.card-primary {
+	.card-collection .mdc-card {
+	
 	}
 	#schedule-cards {
 		margin-left: 34% !important;
