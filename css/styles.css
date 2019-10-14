@@ -369,7 +369,7 @@ hr {
         color: #fff;
     }
 }/*}}}*/
-@media screen and (min-width: 1024px) and (max-height: 1320px) {/*{{{iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){/*{{{iPad */
 	.header a {
 		font-size: 40px;
 		font-weight: bold;
@@ -398,7 +398,7 @@ hr {
         color: #fff;
     }
 }/*}}}*/
-@media screen and (min-width: 1500px) and (max-width: 2708px) { /*{{{Laptop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ /*{{{Laptop */
     .firstpage {
         background-image: url("../images/spacemoonlogo.svg");
 	}
@@ -414,19 +414,42 @@ hr {
 	.header a.logo {
 		font-size: 60px;
 	}
+	h2 {
+		font-size: 80px;
+	}
 	#about span {
         font-family: 'OpenSans-Light', sans-serif;
         padding-left: 40px;
         padding-right: 40px;
-        font-size: 30px;
-        line-height: 60px;
+        font-size: 48px;
+        line-height: 130px;
         word-wrap: break-word;
 	}
     #join button {
-        width: 40vw;
+        width: 20vw;
+		border-radius: 50px 50px;
         height: 20vh;
         margin-top: 20px;
         background-color: #222;
         color: #fff;
     }
+	#join h5 {
+		font-size: 30px;
+	}
+	.card-collection {
+		padding: 12px;
+		padding-left: 29%;
+		border-radius: 2px;
+	}
+	.card-primary {
+	}
+	#schedule-cards {
+		margin-left: 34% !important;
+	}
+	#footer {
+		background-image: url("../images/worldfooterfordesktop.svg");
+		background-position: center top;
+		background-repeat: no-repeat;
+		padding-left: 20%;
+	}
 }/*}}}*/
