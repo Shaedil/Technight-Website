@@ -162,12 +162,6 @@ hr {
     text-align: center;
     padding-bottom: 170px;
 }
-#join button{
-    width: 20vw;
-    height: 30vh;
-    margin-top: 20px;
-    background-color: #222;
-}
 #details {
     width: 100%;
     color: white;
@@ -369,9 +363,9 @@ hr {
         color: #fff;
     }
 }/*}}}*/
-@media (min-width: 900px) and (max-width: 1200px) {/*{{{iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){/*{{{iPad */
 	.header a {
-		font-size: 42px;
+		font-size: 40px;
 		font-weight: bold;
 		border-radius: 2px;
 		font-family: 'Open Sans', sans-serif;
@@ -397,4 +391,69 @@ hr {
         background-color: #222;
         color: #fff;
     }
+}/*}}}*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ /*{{{Laptop */
+    .firstpage {
+        background-image: url("../images/spacemoonlogo.svg");
+	}
+	.header a {
+		font-size: 40px;
+		font-weight: bold;
+		border-radius: 2px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 20px;
+		padding-top: 40px;
+		float: left;
+	}
+	.header a.logo {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 80px;
+	}
+	#about span {
+        font-family: 'OpenSans-Light', sans-serif;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 38px;
+        line-height: 100px;
+        word-wrap: break-word;
+	}
+    #join button {
+        width: 20vw;
+		border-radius: 50px 50px;
+        height: 20vh;
+        margin-top: 20px;
+        background-color: #222;
+        color: #fff;
+    }
+	#join h5 {
+		font-size: 30px;
+	}
+	.card-collection {
+		padding-left: 29%;
+	}
+	.card-collection>.mdc-card>.card-primary {
+		height: 300px !important;
+	}
+	.card-collection>.mdc-card>.card-primary>#card-text {
+		font-size: 20px;
+		line-height: 3;
+	}
+	#schedule-cards {
+		margin-left: 34% !important;
+	}
+	#schedule-cards>.card-primary {
+		height: 700px !important;
+	}
+	#schedule-cards>.card-primary>.schedule-table>tbody>tr>th {
+		font-size: 20px;
+		line-height: 2.45;
+	}
+	#footer {
+		background-image: url("../images/worldfooterfordesktop.svg");
+		background-position: center top;
+		background-repeat: no-repeat;
+		padding-left: 20%;
+	}
 }/*}}}*/

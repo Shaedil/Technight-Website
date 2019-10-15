@@ -1,5 +1,5 @@
 make:
 	 git pull origin master
 	 git add -A
-	 git commit -m "auto-regenerate from make"
+	 git commit
 	 git push origin master
