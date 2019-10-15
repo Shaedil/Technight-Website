@@ -132,8 +132,8 @@ hr {
     padding: 16px;
     padding-top: 24px;
     align-items: flex-start;
-    background-color: Dimgrey;
-    color: white;
+    background-color: #fff;
+    color: black;
 }
 #lftcol {
     padding-left: 0%;
@@ -149,6 +149,8 @@ hr {
 }
 #card-text {
     text-align: left;
+	font-size: large;
+	line-height: 1;
 }
 #about {
     background-image: url("../images/starscontinued.svg");
@@ -434,7 +436,7 @@ hr {
 		padding-left: 29%;
 	}
 	.card-collection>.mdc-card>.card-primary {
-		height: 300px !important;
+		height: 250px !important;
 	}
 	.card-collection>.mdc-card>.card-primary>#card-text {
 		font-size: 20px;
