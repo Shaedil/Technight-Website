@@ -415,8 +415,8 @@ hr {
         font-family: 'OpenSans-Light', sans-serif;
         padding-left: 40px;
         padding-right: 40px;
-        font-size: 48px;
-        line-height: 130px;
+        font-size: 38px;
+        line-height: 100px;
         word-wrap: break-word;
 	}
     #join button {
@@ -431,15 +431,24 @@ hr {
 		font-size: 30px;
 	}
 	.card-collection {
-		padding: 12px;
 		padding-left: 29%;
-		border-radius: 2px;
 	}
-	.card-collection .mdc-card {
-	
+	.card-collection>.mdc-card>.card-primary {
+		height: 300px !important;
+	}
+	.card-collection>.mdc-card>.card-primary>#card-text {
+		font-size: 20px;
+		line-height: 3;
 	}
 	#schedule-cards {
 		margin-left: 34% !important;
+	}
+	#schedule-cards>.card-primary {
+		height: 700px !important;
+	}
+	#schedule-cards>.card-primary>.schedule-table>tbody>tr>th {
+		font-size: 20px;
+		line-height: 2.45;
 	}
 	#footer {
 		background-image: url("../images/worldfooterfordesktop.svg");
