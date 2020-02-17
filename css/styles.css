@@ -159,7 +159,7 @@ hr {
     color: white;
     text-align: center;
     margin-bottom: 0 !important;
-		height: 100vh;
+		height: 75vh;
 }
 .bg-dark {
 		background-color: black !important; 
@@ -182,7 +182,6 @@ hr {
     padding-bottom: 150px;
 }
 #schedule {
-		height: 100hv;
     color: white;
     background-color: #284B63;
     background-image: url("../images/scheduleclouds.svg");
@@ -196,7 +195,6 @@ hr {
     text-align: center;
 }
 #footer {
-		height: 100hv;
     padding-left: 8%;
     background-color: #8E2942;
     background-image: url("../images/worldfooterfordesktop.svg");
