@@ -119,6 +119,7 @@ hr {
     padding: 12px;
     padding-left: 17%;
     border-radius: 2px;
+		margin: 0 auto;
 }
 .mdc-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -158,11 +159,17 @@ hr {
     text-align: center;
     margin-bottom: 0 !important;
 }
+.bg-dark {
+	background-color: black !important; 
+}
 #join {
 	background-color: black;
     -webkit-text-align: center;
     text-align: center;
     padding-bottom: 170px;
+}
+#join img:hover {
+	opacity: 0.7;
 }
 #details {
     width: 100%;
