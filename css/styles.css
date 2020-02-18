@@ -40,6 +40,7 @@ html {
 		height: 100vh;
     margin: 0px;
     padding: 0px;
+		scroll-behavior: smooth;
 }
 h2 {
     font-family: 'OpenSans-Bold', sans-serif;
