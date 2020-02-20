@@ -115,13 +115,41 @@ hr {
 }
 /* Float the link section to the right */
 .header-right {
-    float: right;
+		float: right;
 }
 .card-collection {
-    padding: 12px;
-    padding-left: 17%;
-    border-radius: 2px;
-		margin: 0 auto;
+		padding: 12px;
+		border-radius: 2px;
+		margin-left: 0;
+		text-align: center;
+}
+.card-left {
+		background-color:#fff;
+		color:black;
+		min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
+		margin-right: 8px; 
+		display: -webkit-inline-box;
+}
+.card-right {
+		background-color:#fff;
+		color:black;
+		min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
+		display: -webkit-inline-box;
+}
+.card-left-long {
+		background-color:#fff;
+		color:black;
+		width:420px;
+		margin-right:8px;
+		display: -webkit-inline-box;
+		/* float:left; */
+}
+.card-right-long {
+		background-color:#fff;
+		color:black;
+		width:420px;
+		/* margin-left:25%; */
+		display: -webkit-inline-box;
 }
 .mdc-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -160,7 +188,7 @@ hr {
     color: white;
     text-align: center;
     margin-bottom: 0 !important;
-		height: 75vh;
+		height: 65vh;
 }
 .bg-dark {
 		background-color: black !important; 
