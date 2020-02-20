@@ -1,329 +1,329 @@
 /*{{{ The fonts for webpage*/ 
 @font-face {
-    font-family: 'OpenSans-Light';
-    url("../fonts/OpenSans-Light.ttf") format("truetype")
+	font-family: 'OpenSans-Light';
+	url("../fonts/OpenSans-Light.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'OpenSans-Regular';
-    url("../fonts/OpenSans-Regular.ttf") format("truetype")
+	font-family: 'OpenSans-Regular';
+	url("../fonts/OpenSans-Regular.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'OpenSans-SemiBold';
-    url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
+	font-family: 'OpenSans-SemiBold';
+	url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'OpenSans-Bold';
-    url("../fonts/OpenSans-Bold.ttf") format("truetype")
+	font-family: 'OpenSans-Bold';
+	url("../fonts/OpenSans-Bold.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'Quicksand-Light';
-    url("../fonts/Quicksand-Light.ttf") format("truetype")
+	font-family: 'Quicksand-Light';
+	url("../fonts/Quicksand-Light.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'Quicksand-Regular';
-    url("../fonts/Quicksand-Regular.ttf") format("truetype")
+	font-family: 'Quicksand-Regular';
+	url("../fonts/Quicksand-Regular.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'Quicksand-Medium';
-    url("../fonts/Quicksand-Medium.ttf") format("truetype")
+	font-family: 'Quicksand-Medium';
+	url("../fonts/Quicksand-Medium.ttf") format("truetype")
 }
 @font-face {
-    font-family: 'Quicksand-Bold';
-    url("../fonts/Quicksand-Bold.ttf") format("truetype")
+	font-family: 'Quicksand-Bold';
+	url("../fonts/Quicksand-Bold.ttf") format("truetype")
 }/*}}}*/
 body {/*{{{ Original/Desktop DONE*/
-    margin: 0;
-    height: 100%;
+	margin: 0;
+	height: 100%;
 }
 html {
-    height: 100%;
-		height: 100vh;
-    margin: 0px;
-    padding: 0px;
-		scroll-behavior: smooth;
+	height: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
 }
 h2 {
-    font-family: 'OpenSans-Bold', sans-serif;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    margin-top: 0px;
-    font-size: 50px;
+	font-family: 'OpenSans-Bold', sans-serif;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+	font-size: 50px;
 }
 p {
-    padding-bottom: 200px;
-    margin-bottom: 0px;
-    font-size: 24px;
-    line-height: 44px;
+	padding-bottom: 200px;
+	margin-bottom: 0px;
+	font-size: 24px;
+	line-height: 44px;
 }
 span {
-    font-family: 'OpenSans-Light', sans-serif;
-    margin-bottom: 0px;
-    font-size: 20px;
-    line-height: 44px;
+	font-family: 'OpenSans-Light', sans-serif;
+	margin-bottom: 0px;
+	font-size: 20px;
+	line-height: 44px;
 }
 hr {
-    width: 50%;
-    color: white;
-    background-color: white;
+	width: 50%;
+	color: white;
+	background-color: white;
 }
 .firstpage {
-    color: white;
-    background-image: url("../images/spacemoonlogo.svg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	color: white;
+	background-image: url("../images/spacemoonlogo.svg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .firstpage h2{
-    font-size: 50px;
-    padding-left: 39%;
-    padding-top: 15%;
+	font-size: 50px;
+	padding-left: 39%;
+	padding-top: 15%;
 }
 /* Style the header with a white background and some padding */
 .header {
-    overflow: hidden;
-    color: white;
-    padding-top: 0%;
-    padding-left: 8%;
-    padding-right: 8%;
+	overflow: hidden;
+	color: white;
+	padding-top: 0%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 /* Style the header links */
 .header a {
-    float: left;
-    color: #fff;
-    text-align: center;
-    padding: 25px;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 25px;
-    border-radius: 4px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 25px;
+	border-radius: 4px;
 }
 /* Style the logo link */
 .header a.logo {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
 }
 /* Underline link on mouse-over */
 .header a:hover {
-    color: #fff;
-    position: relative;
-    text-decoration: underline;
+	color: #fff;
+	position: relative;
+	text-decoration: underline;
 }
 /* Float the link section to the right */
 .header-right {
-		float: right;
+	float: right;
 }
 .card-collection {
-		padding: 12px;
-		border-radius: 2px;
-		margin-left: 0;
-		text-align: center;
+	padding: 12px;
+	border-radius: 2px;
+	margin-left: 0;
+	text-align: center;
 }
 .card-left {
-		background-color:#fff;
-		color:black;
-		min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
-		margin-right: 8px; 
-		display: -webkit-inline-box;
+	background-color:#fff;
+	color:black;
+	min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
+	margin-right: 8px; 
+	display: -webkit-inline-box;
 }
 .card-right {
-		background-color:#fff;
-		color:black;
-		min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
-		display: -webkit-inline-box;
+	background-color:#fff;
+	color:black;
+	min-width:475px; max-width:475px; min-height: 135px; max-height: 145px;
+	display: -webkit-inline-box;
 }
 .card-left-long {
-		background-color:#fff;
-		color:black;
-		width:420px;
-		margin-right:8px;
-		display: -webkit-inline-box;
-		/* float:left; */
+	background-color:#fff;
+	color:black;
+	width:420px;
+	margin-right:8px;
+	display: -webkit-inline-box;
+	/* float:left; */
 }
 .card-right-long {
-		background-color:#fff;
-		color:black;
-		width:420px;
-		/* margin-left:25%; */
-		display: -webkit-inline-box;
+	background-color:#fff;
+	color:black;
+	width:420px;
+	/* margin-left:25%; */
+	display: -webkit-inline-box;
 }
 .mdc-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: inherit;
-    margin-bottom: 12px;
-    transition: border-radius 100ms cubic-bezier(.4, 0, .2, 1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: inherit;
+	margin-bottom: 12px;
+	transition: border-radius 100ms cubic-bezier(.4, 0, .2, 1);
 }
 .card-primary {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    padding-top: 24px;
-    align-items: flex-start;
-    background-color: #fff;
-    color: black;
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	padding-top: 24px;
+	align-items: flex-start;
+	background-color: #fff;
+	color: black;
 }
 #lftcol {
-    padding-left: 0%;
-    width: 100px;
+	padding-left: 0%;
+	width: 100px;
 }
 #rhtcol {
-    padding-left: 20%;
-    width: 300px;
+	padding-left: 20%;
+	width: 300px;
 }
 .schedule-table th{
-    text-align: left;
-    font-size: 18px;
+	text-align: left;
+	font-size: 18px;
 }
 #card-text {
-    text-align: left;
-		font-size: large;
-		line-height: 1;
+	text-align: left;
+	font-size: large;
+	line-height: 1;
 }
 #about {
-    background-image: url("../images/starscontinued.svg");
-    color: white;
-    text-align: center;
-    margin-bottom: 0 !important;
-		height: 65vh;
+	background-image: url("../images/starscontinued.svg");
+	color: white;
+	text-align: center;
+	margin-bottom: 0 !important;
+	height: 65vh;
 }
 .bg-dark {
-		background-color: black !important; 
+	background-color: black !important; 
 }
 #join {
-		background-color: black;
-    -webkit-text-align: center;
-    text-align: center;
-    padding-bottom: 170px;
+	background-color: black;
+	-webkit-text-align: center;
+	text-align: center;
+	padding-bottom: 170px;
 }
 #join img:hover {
 	opacity: 0.7;
 }
 #details {
-    width: 100%;
-    color: white;
-    background-image: linear-gradient(black, #284B63);
-    -webkit-text-align: center;
-    text-align: center;
-    padding-bottom: 150px;
+	width: 100%;
+	color: white;
+	background-image: linear-gradient(black, #284B63);
+	-webkit-text-align: center;
+	text-align: center;
+	padding-bottom: 150px;
 }
 #schedule {
-    color: white;
-    background-color: #284B63;
-    background-image: url("../images/scheduleclouds.svg");
-    -webkit-text-align: center;
-    text-align: center;
-    padding-bottom: 150px;
+	color: white;
+	background-color: #284B63;
+	background-image: url("../images/scheduleclouds.svg");
+	-webkit-text-align: center;
+	text-align: center;
+	padding-bottom: 150px;
 }
 #sponsor {
-    background-image: linear-gradient(#284B63, #8E2942);
-    -webkit-text-align: center;
-    text-align: center;
+	background-image: linear-gradient(#284B63, #8E2942);
+	-webkit-text-align: center;
+	text-align: center;
 }
 #footer {
-    padding-left: 8%;
-    background-color: #8E2942;
-    background-image: url("../images/worldfooterfordesktop.svg");
-    color: white;
-		background-repeat: no-repeat;
+	padding-left: 8%;
+	background-color: #8E2942;
+	background-image: url("../images/worldfooterfordesktop.svg");
+	color: white;
+	background-repeat: no-repeat;
 }
 #footer h5 {
-    padding-bottom: 10px;
-    margin-bottom: 0rem;
+	padding-bottom: 10px;
+	margin-bottom: 0rem;
 }
 #footer a {
-    color: white;
-    text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
 ::selection {
-    background: #82b1ff;
-    color: #fff;
+	background: #82b1ff;
+	color: #fff;
 }
 ::-moz-selection {
-    background: #3d5afe;
-    color: #fff
+	background: #3d5afe;
+	color: #fff
 }/*}}}*/
 @media (min-width: 359px) and (max-width: 767px) {/*{{{ Nexus5/BlackberryZ30/Galaxy S5/iPhone6/7/8 DONE */
-    html {
-        background-color: #8E2942;
-    }
-    .schedule-table th {
-        font-size: 22px;
-    }
-    #lftcol {
-        width: 150px;
-    }
-    #rhtcol {
-        padding-left: 12%;
-    }
-    #schedule h2 {
-        padding-top: 75px;
-    }
-    #schedule {
-        padding-bottom: 75px;
-    }
-    #card-text {
-        font-size: 16px;
-    }
-    #footer {
-        padding-top: 30px;
-        background-image: url("../images/worldfooterfornexus5.svg");
-        width: 100%;
-        height: 17%;
-    }
-    #footer h5 {
-        padding-bottom: 10px;
-        margin-bottom: 0rem;
-    }
-    #footer h5:last-child {
-        padding-bottom: 0px;
-    }
+	html {
+		background-color: #8E2942;
+	}
+	.schedule-table th {
+		font-size: 22px;
+	}
+	#lftcol {
+		width: 150px;
+	}
+	#rhtcol {
+		padding-left: 12%;
+	}
+	#schedule h2 {
+		padding-top: 75px;
+	}
+	#schedule {
+		padding-bottom: 75px;
+	}
+	#card-text {
+		font-size: 16px;
+	}
+	#footer {
+		padding-top: 30px;
+		background-image: url("../images/worldfooterfornexus5.svg");
+		width: 100%;
+		height: 17%;
+	}
+	#footer h5 {
+		padding-bottom: 10px;
+		margin-bottom: 0rem;
+	}
+	#footer h5:last-child {
+		padding-bottom: 0px;
+	}
 	/* #footer h5 */ 
-    .header {
-        overflow: hidden;
-        color: white;
-        padding-top: 3%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    #about span {
-        font-family: 'OpenSans-Light', sans-serif;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 30px;
-        line-height: 60px;
-        word-wrap: break-word;
-    }
-    .header a {
-        float: left;
-        color: #fff;
-        padding: 12px;
-        text-align: center;
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 22px;
-        font-weight: bold;
-        border-radius: 2px;
-    }
-    .header-right {
-        float: none;
-    }
-    hr {
-        color: white;
-        background-color: white;
-    }
-    #join button {
-        width: 40vw;
-        height: 20vh;
-        margin-top: 20px;
-        background-color: #222;
-        color: #fff;
-    }
-    .firstpage {
-        background-image: url("../images/smallspacemoonlogo.svg");
+	.header {
+		overflow: hidden;
+		color: white;
+		padding-top: 3%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	#about span {
+		font-family: 'OpenSans-Light', sans-serif;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 30px;
+		line-height: 60px;
+		word-wrap: break-word;
+	}
+	.header a {
+		float: left;
+		color: #fff;
+		padding: 12px;
+		text-align: center;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 22px;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+	.header-right {
+		float: none;
+	}
+	hr {
+		color: white;
+		background-color: white;
+	}
+	#join button {
+		width: 40vw;
+		height: 20vh;
+		margin-top: 20px;
+		background-color: #222;
+		color: #fff;
+	}
+	.firstpage {
+		background-image: url("../images/smallspacemoonlogo.svg");
 	}
 	#schedule-cards {
 		margin-left: 22% !important;
@@ -333,16 +333,16 @@ hr {
 	}
 }/*}}}*/
 @media (min-width: 800px) and (max-width: 824px) {/*{{{Nexus5X/iPhone/Pixel DONE*/
-    #footer {
-        padding-top: 30px;
-        background-image: url("../images/worldfooterfornexus5X.svg");
-    }
-    #footer h5 {
-        padding-bottom: 10px;
-        margin-bottom: 0rem;
-    }
-    .firstpage {
-        background-image: url("../images/smallspacemoonlogo.svg");
+	#footer {
+		padding-top: 30px;
+		background-image: url("../images/worldfooterfornexus5X.svg");
+	}
+	#footer h5 {
+		padding-bottom: 10px;
+		margin-bottom: 0rem;
+	}
+	.firstpage {
+		background-image: url("../images/smallspacemoonlogo.svg");
 	}
 	.header a {
 		font-size: 22px;
@@ -354,27 +354,27 @@ hr {
 		float: left;
 	}
 	#about span {
-        font-family: 'OpenSans-Light', sans-serif;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 30px;
-        line-height: 60px;
-        word-wrap: break-word;
+		font-family: 'OpenSans-Light', sans-serif;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 30px;
+		line-height: 60px;
+		word-wrap: break-word;
 	}
-    #join button {
-        width: 40vw;
-        height: 20vh;
-        margin-top: 20px;
-        background-color: #222;
-        color: #fff;
-    }
+	#join button {
+		width: 40vw;
+		height: 20vh;
+		margin-top: 20px;
+		background-color: #222;
+		color: #fff;
+	}
 	.card-collection {
 		padding-left: 22%;
 	}
 }/*}}}*/
 @media (min-width: 824px) and (max-width: 900px) {/*{{{iPhone plus DONE*/
-    .firstpage {
-        background-image: url("../images/smallspacemoonlogo.svg");
+	.firstpage {
+		background-image: url("../images/smallspacemoonlogo.svg");
 	}
 	html {
 		width: 100.2%;
@@ -389,20 +389,20 @@ hr {
 		float: left;
 	}
 	#about span {
-        font-family: 'OpenSans-Light', sans-serif;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 30px;
-        line-height: 60px;
-        word-wrap: break-word;
+		font-family: 'OpenSans-Light', sans-serif;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 30px;
+		line-height: 60px;
+		word-wrap: break-word;
 	}
-    #join button {
-        width: 40vw;
-        height: 20vh;
-        margin-top: 20px;
-        background-color: #222;
-        color: #fff;
-    }
+	#join button {
+		width: 40vw;
+		height: 20vh;
+		margin-top: 20px;
+		background-color: #222;
+		color: #fff;
+	}
 }/*}}}*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){/*{{{iPad */
 	.header a {
@@ -418,24 +418,24 @@ hr {
 		font-size: 60px;
 	}
 	#about span {
-        font-family: 'OpenSans-Light', sans-serif;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 30px;
-        line-height: 60px;
-        word-wrap: break-word;
+		font-family: 'OpenSans-Light', sans-serif;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 30px;
+		line-height: 60px;
+		word-wrap: break-word;
 	}
-    #join button {
-        width: 40vw;
-        height: 20vh;
-        margin-top: 20px;
-        background-color: #222;
-        color: #fff;
-    }
+	#join button {
+		width: 40vw;
+		height: 20vh;
+		margin-top: 20px;
+		background-color: #222;
+		color: #fff;
+	}
 }/*}}}*/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){ /*{{{Laptop */
-    .firstpage {
-        background-image: url("../images/spacemoonlogo.svg");
+	.firstpage {
+		background-image: url("../images/spacemoonlogo.svg");
 	}
 	.header a {
 		font-size: 40px;
@@ -453,21 +453,21 @@ hr {
 		font-size: 80px;
 	}
 	#about span {
-        font-family: 'OpenSans-Light', sans-serif;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 38px;
-        line-height: 100px;
-        word-wrap: break-word;
+		font-family: 'OpenSans-Light', sans-serif;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 38px;
+		line-height: 100px;
+		word-wrap: break-word;
 	}
-    #join button {
-        width: 20vw;
+	#join button {
+		width: 20vw;
 		border-radius: 50px 50px;
-        height: 20vh;
-        margin-top: 20px;
-        background-color: #222;
-        color: #fff;
-    }
+		height: 20vh;
+		margin-top: 20px;
+		background-color: #222;
+		color: #fff;
+	}
 	#join h5 {
 		font-size: 30px;
 	}
